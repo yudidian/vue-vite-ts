@@ -10,7 +10,7 @@ module.exports = {
     es2021: true
   },
   extends: [
-    'plugin:vue/vue3-strongly-recommended',
+    'plugin:vue/vue3-recommended',
     'standard'
   ],
   parserOptions: {

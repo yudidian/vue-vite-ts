@@ -6,16 +6,20 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint": "eslint ./src/**/*.{js,jsx,vue,ts,tsx} --fix",
+    "lint": "eslint ./src/**/*.{js,jsx,vue,ts,tsx}",
     "prepare": "husky install"
   },
   "dependencies": {
+    "axios": "^0.27.0",
+    "element-plus": "^2.1.11",
     "vue": "^3.2.25",
-    "vue-router": "^4.0.14"
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
+    "@types/node": "^17.0.25",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
     "@vitejs/plugin-vue": "^2.3.1",
@@ -28,8 +32,13 @@
     "eslint-plugin-vue": "^8.6.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.8",
+    "sass": "^1.50.1",
     "typescript": "^4.5.4",
+    "unplugin-auto-import": "^0.7.1",
+    "unplugin-element-plus": "^0.4.0",
+    "unplugin-vue-components": "^0.19.3",
     "vite": "^2.9.2",
+    "vite-plugin-element-plus": "0.0.12",
     "vite-plugin-eslint": "^1.4.0",
     "vue-tsc": "^0.29.8"
   },

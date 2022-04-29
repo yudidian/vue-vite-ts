@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-createApp(App).use(router).mount('#app')
+import { store, key } from './store/store'
+import '@/styles/index.scss'
+import 'element-plus/dist/index.css'
+createApp(App)
+  .use(router)
+  .use(store, key)
+  .mount('#app')
